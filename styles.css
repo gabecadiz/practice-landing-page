@@ -1,10 +1,13 @@
+body {
+  background: #222;
+}
 .container-fluid {
-  height: 100vh;
   width: 100%;
 }
 
 .landing-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(53, 53, 53, 0.55)),
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(53, 53, 53, 0.65)),
     url('https://images.unsplash.com/photo-1543633550-f431af584afd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
 }
 .jumbotron {
@@ -22,4 +25,105 @@
 
 .btn-container > .btn {
   margin: 0 0.4rem;
+}
+
+#mc_embed_signup {
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+}
+
+.clear > .btn {
+  display: block;
+}
+
+.landing-2 {
+  height: 70vh;
+  width: 100%;
+}
+
+.subscribe-container {
+  height: 70vh;
+  display: block;
+  background: #222;
+  color: #ccc;
+  font-size: 1.2rem;
+}
+
+.subscribe-text {
+  padding-top: 30%;
+}
+
+.subscribe-image {
+  height: 70vh;
+  width: 100%;
+  background: linear-gradient(rgba(53, 53, 53, 0.55), rgba(0, 0, 0, 0.55)),
+    url('https://images.unsplash.com/photo-1485395037613-e83d5c1f5290?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.col-subscribe {
+  padding: 0;
+}
+.landing-3 {
+  height: 25vh;
+  background-color: #747574;
+  color: #ccc;
+}
+
+.review-header {
+  padding-top: 7vh;
+}
+
+.landing-4 {
+  padding: 10vh 2vh;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(53, 53, 53, 0.65)),
+    url('https://images.unsplash.com/photo-1543633550-f431af584afd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+}
+.carousel-item {
+  height: auto;
+  min-width: 100%;
+  align-items: center;
+}
+.review-container {
+  height: 60vh;
+  color: #ccc;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+.review-prof-img {
+  padding: 2vh 0;
+}
+.footer-container {
+  background: #222;
+  color: #ccc;
+  font-size: 1.2rem;
+}
+
+.footer-divider {
+  margin-top: 20vh;
+  border-top: 1px solid #ccc;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: center;
+}
+
+.col-lg-2 > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.col-lg-2 > h4 {
+  font-size: 2rem;
+}
+ul > li {
+  line-height: 3rem;
+}
+ul > li:hover {
+  color: red;
 }
