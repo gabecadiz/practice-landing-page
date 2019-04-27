@@ -1,3 +1,7 @@
 # bootstrap-prac-udemy
 
-practicing setting up bootstrap
+Practicing with boostrap by creating a practice landing page
+
+## TODOS
+
+- must make mobile friendly
